@@ -1,9 +1,4 @@
 import { saludar } from './js/componentes';
 import './styles.css';
 
-import img from './assets/logo-webpack.png';
-
-
-const nombre = 'Claudio';
-
-saludar( nombre );
+import img from './assets/webpack-logo2.png';

@@ -1,4 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-h1 {
-    color: red;
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor img {
+    height: 200px;
+    width: 200px;
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
 }
